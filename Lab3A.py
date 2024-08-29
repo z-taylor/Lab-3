@@ -5,7 +5,7 @@
 # Name: Zachary Taylor
 # Program: Lab3A.py
 AmntOwed = float(input("Amount owed: "))
-APR = round(float(input("APR: ")), 2) / 100
+APR = round(float(input("$APR: ")), 2) / 100
 MonthlyPrcnt = round((APR*100/12), 3)
 MinPmnt = round((AmntOwed*APR/12), 2)
 print("Monthly percentage rate: " + str(MonthlyPrcnt))
