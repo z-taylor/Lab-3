@@ -9,4 +9,4 @@ APR = round(float(input("APR: ")), 2) / 100
 MonthlyPrcnt = round((APR*100/12), 3)
 MinPmnt = round((AmntOwed*APR/12), 2)
 print("Monthly percentage rate: " + str(MonthlyPrcnt))
-print("Minimum payment: " + str(MinPmnt))
+print("Minimum payment: $" + str(MinPmnt))
