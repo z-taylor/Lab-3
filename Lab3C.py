@@ -13,4 +13,5 @@ totalSec = (numSmall * 30) + (numLarge * 15) + (numXlarge * 15)
 minAdd = totalSec // 60
 totalSec = totalSec - (60 * (totalSec // 60))
 totalMin += minAdd
+print("\n")
 print("Total cooking time is "+ str(totalMin) +" minutes and "+ str(totalSec) +" seconds.")
